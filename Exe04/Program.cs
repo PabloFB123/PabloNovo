@@ -18,6 +18,3 @@ for(int i= 0; i < qtdChars; i++)//contador int-flag<-i++acumulador - inicia acon
 {
 Console.WriteLine(meuNumeroTexto[i]);
 }
-
-
-
