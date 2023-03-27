@@ -30,5 +30,16 @@ switch(numero.Length) //if e switch=if toda vez checa e no switch ele é pre-pro
         Dezena dezena = new Dezena();
         retorno = dezena.DezenaPorExtenso(nro);
     break;
+
+    case 3:
+        Centena centena = new Centena();
+        retorno = centena.CentenaPorExtenso(nro);
+    break;
+
+    case 4:
+        Milhar milhar = new Milhar();
+        retorno = milhar.MilharPorExtenso(nro);
+    break;
+
 }
 Console.WriteLine(retorno);
