@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\bin\Debug\net7.0\FluxoTiposExceptions.exe
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\bin\Debug\net7.0\FluxoTiposExceptions.deps.json
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\bin\Debug\net7.0\FluxoTiposExceptions.runtimeconfig.json
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\bin\Debug\net7.0\FluxoTiposExceptions.dll
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\bin\Debug\net7.0\FluxoTiposExceptions.pdb
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.dll
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\refint\FluxoTiposExceptions.dll
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.pdb
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\FluxoTiposExceptions.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Programação1\FluxoTiposExceptions\obj\Debug\net7.0\ref\FluxoTiposExceptions.dll
