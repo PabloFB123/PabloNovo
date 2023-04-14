@@ -7,6 +7,6 @@ namespace Atividade01.Classes
 {
     public class Gerente : Pessoa
     {
-        public bool SalarioAlto;
+        public string SalarioAlto {get; set;}
     }
 }

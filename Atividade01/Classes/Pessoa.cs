@@ -11,5 +11,6 @@ namespace Atividade01.Classes
         public DateTime Nascimento;
         public string Gênero;
         public string Função;
+        public string Salário;
     }
 }

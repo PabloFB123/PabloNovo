@@ -7,6 +7,6 @@ namespace Atividade01.Classes
 {
     public class Supervisor : Pessoa
     {
-        public bool SalarioMedio;
+        public string SalarioMedio {get; set;}
     }
 }

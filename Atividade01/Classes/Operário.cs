@@ -7,6 +7,6 @@ namespace Atividade01.Classes
 {
     public class Operário : Pessoa
     {
-        public bool SalarioBaixo;
+        public string SalarioBaixo {get; set;}
     }
 }
