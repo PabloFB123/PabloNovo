@@ -99,7 +99,7 @@ Animal [] animals = new Animal []// ctrl+. atribui a class animal a fluxotiposex
             Name = "Eddie Brock"
             , Born = DateTime.Today
             , Legs = 8
-            , IsPoisonous = true
+            , IsPoisonous = false
         },
 };
 
@@ -110,6 +110,7 @@ Animal [] animals = new Animal []// ctrl+. atribui a class animal a fluxotiposex
 // 3: Acumulador - Permite acumular valores a cada repetição
 
 // Laço For
+
 for (int i = 0; i < animals.Length; i++) //lenght é o atributo que diz o tamanho dele-
 {
     string message = string.Empty;
@@ -120,6 +121,8 @@ for (int i = 0; i < animals.Length; i++) //lenght é o atributo que diz o tamanh
             Console.WriteLine(message);
         }
 }
+
+/*
 
 // Laço de repetição para cada
 Console.WriteLine("\n---FOREACH---\n");
@@ -134,3 +137,4 @@ foreach(Animal animal in animals)
 }
 
 //
+*/
