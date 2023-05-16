@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\bin\Debug\net7.0\TrtamentoErros.exe
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\bin\Debug\net7.0\TrtamentoErros.deps.json
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\bin\Debug\net7.0\TrtamentoErros.runtimeconfig.json
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\bin\Debug\net7.0\TrtamentoErros.dll
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\bin\Debug\net7.0\TrtamentoErros.pdb
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.dll
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\refint\TrtamentoErros.dll
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.pdb
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\TrtamentoErros.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Programação1\TratamentoErros\obj\Debug\net7.0\ref\TrtamentoErros.dll
