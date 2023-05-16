@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Programação1\Atividade01\bin\Debug\net7.0\Atividade01.exe
+C:\Users\Pablo\Desktop\Programação1\Atividade01\bin\Debug\net7.0\Atividade01.deps.json
+C:\Users\Pablo\Desktop\Programação1\Atividade01\bin\Debug\net7.0\Atividade01.runtimeconfig.json
+C:\Users\Pablo\Desktop\Programação1\Atividade01\bin\Debug\net7.0\Atividade01.dll
+C:\Users\Pablo\Desktop\Programação1\Atividade01\bin\Debug\net7.0\Atividade01.pdb
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.dll
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\refint\Atividade01.dll
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.pdb
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\Atividade01.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Programação1\Atividade01\obj\Debug\net7.0\ref\Atividade01.dll
