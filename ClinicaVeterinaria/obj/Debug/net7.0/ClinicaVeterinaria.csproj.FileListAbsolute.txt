@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\bin\Debug\net7.0\ClinicaVeterinaria.exe
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\bin\Debug\net7.0\ClinicaVeterinaria.deps.json
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\bin\Debug\net7.0\ClinicaVeterinaria.runtimeconfig.json
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\bin\Debug\net7.0\ClinicaVeterinaria.dll
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\bin\Debug\net7.0\ClinicaVeterinaria.pdb
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.dll
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\refint\ClinicaVeterinaria.dll
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.pdb
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ClinicaVeterinaria.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Programação1\ClinicaVeterinaria\obj\Debug\net7.0\ref\ClinicaVeterinaria.dll
