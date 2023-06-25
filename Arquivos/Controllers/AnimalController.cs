@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO; //Input and Output
 using Arquivos.Data;
 using Arquivos.Models;
 
@@ -9,13 +10,15 @@ namespace Arquivos.Controllers
 {
     public class AnimalController
     {
+        private string directoryNameA = "ReportFiles";
+        private string fileNameA = "Animals.txt";
 
         public List<Animal> List()
         {
             return DataSet.Animals;
         }
 
-        public bool Insert(Animal  animal)
+        public bool Insert(Animal animal)
         {
             if(animal == null)
                 return false;
@@ -28,15 +31,81 @@ namespace Arquivos.Controllers
                 return true;
         }
 
+        public bool ExportToTextFile()
+        {
+            if(!Directory.Exists(directoryNameA))
+                Directory.CreateDirectory(directoryNameA);
+
+            string fileContent = string.Empty;
+            foreach(Animal c in DataSet.Animals)
+            {
+                fileContent += $"{c.IdA};{c.NomeA};{c.TipoA};{c.RacaA};{c.PesoA}";
+                fileContent += "\n";
+            }
 
 
+            try
+            {
+            StreamWriter sw = File.CreateText($"{directoryNameA}\\{fileNameA}");
+
+            sw.Write(fileContent);
+            sw.Close();
+            }
+
+            catch(IOException ioEx)
+            {
+            Console.WriteLine("Erro ao manipular o arquivo.");
+            Console.WriteLine(ioEx.Message);
+            return false;
+            }
+
+
+            return true;
+        }
+
+        public bool ImportFromTxtFile()
+        {
+
+            try
+            {
+                StreamReader sr = new StreamReader($"{directoryNameA}\\{fileNameA}");
+        
+                string line = string.Empty;
+                line = sr.ReadLine();
+                while(line != null)
+                {
+                Animal animal = new Animal();
+                string[] animalData = line.Split(';'); //caracter se referencia com aspas simples
+                animal.IdA = Convert.ToInt32(animalData[0]);
+                animal.NomeA = animalData[1];
+                animal.TipoA = animalData[2];
+                animal.RacaA = animalData[3];
+                animal.PesoA = animalData[4];
+
+                DataSet.Animals.Add(animal);
+
+                line = sr.ReadLine();
+
+                }
+
+                return true;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Ooooops. Ocorreu um erro ao tentar importar os dados");
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+
+
+        }
 
         public int GetNextId()
         {
-            int tam = DataSet.Clients.Count;
+            int tam = DataSet.Animals.Count;
 
             if ( tam > 0)
-                return DataSet.Clients[ tam - 1 ].Id + 1;
+                return DataSet.Animals[ tam - 1 ].IdA + 1;
             else
             return 1;
         }

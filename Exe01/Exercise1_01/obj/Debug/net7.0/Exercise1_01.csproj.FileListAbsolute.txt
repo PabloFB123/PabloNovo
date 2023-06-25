@@ -1,0 +1,15 @@
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\bin\Debug\net7.0\Exercise1_01.exe
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\bin\Debug\net7.0\Exercise1_01.deps.json
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\bin\Debug\net7.0\Exercise1_01.runtimeconfig.json
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\bin\Debug\net7.0\Exercise1_01.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\bin\Debug\net7.0\Exercise1_01.pdb
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.csproj.AssemblyReference.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.AssemblyInfoInputs.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.AssemblyInfo.cs
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.csproj.CoreCompileInputs.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\refint\Exercise1_01.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.pdb
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\Exercise1_01.genruntimeconfig.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe01\Exercise1_01\obj\Debug\net7.0\ref\Exercise1_01.dll

@@ -1,20 +1,18 @@
-﻿var myfloat = 10f;
+﻿var myFloat = 10f;
 float meuFloat = 11;
 
-//Conversão de tipo numérico
-
+// Conversão de tipo numérico
 int myInteger = 100;
-meuFloat = (float)myInteger;//conversão implicita
-
+meuFloat = (float)myInteger;
 decimal myDecimal = Convert.ToDecimal(myInteger);
 
 var myDouble = 10d;
 myDecimal = 10m;
 
-string meuNumeroTexto = Convert.ToString(myInteger);//converte em uma string
-
-int qtdChars = meuNumeroTexto.Length;//conta quantos caracter que tem
-for(int i= 0; i < qtdChars; i++)//contador int-flag<-i++acumulador - inicia acontagem em 0 que é primeiro caracter e conte até i for igual a quantidade de caractere i++ conte de um em um
+string meuNumeroTexto = Convert.ToString(myInteger);
+int qtdChars = meuNumeroTexto.Length;
+for(int i = 0; i < qtdChars; i++)
 {
-Console.WriteLine(meuNumeroTexto[i]);
+    Console.WriteLine( meuNumeroTexto[i] );
 }
+

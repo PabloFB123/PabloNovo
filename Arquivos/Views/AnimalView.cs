@@ -39,6 +39,16 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
                 case 2:
                     List();
                 break;
+                case 3:
+                    Export();
+                break;
+
+                case 4:
+                    Import();
+                break;
+
+                default:
+                break;
             }
         }
 
@@ -84,6 +94,22 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
             else
                 Console.WriteLine("Falha ao inserir, verifique os dados!");
 
+        }
+
+        private void Export()
+        {
+            if(animalController.ExportToTextFile())
+                Console.WriteLine("Arquivo gerado com sucesso!");
+            else
+                Console.WriteLine("Opsssss.");
+        }
+
+        private void Import()
+        {
+            if(animalController.ImportFromTxtFile())
+                Console.WriteLine("Dados importados com sucesso!");
+            else
+                Console.WriteLine("Opsssss.");
         }
     }
 }

@@ -1,15 +1,15 @@
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\bin\Debug\net7.0\Exe03.exe
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\bin\Debug\net7.0\Exe03.deps.json
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\bin\Debug\net7.0\Exe03.runtimeconfig.json
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\bin\Debug\net7.0\Exe03.dll
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\bin\Debug\net7.0\Exe03.pdb
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.csproj.AssemblyReference.cache
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.AssemblyInfoInputs.cache
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.AssemblyInfo.cs
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.csproj.CoreCompileInputs.cache
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.dll
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\refint\Exe03.dll
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.pdb
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\Exe03.genruntimeconfig.cache
-C:\Users\Pablo\Desktop\Nova pasta\Nova pasta\Exe03\obj\Debug\net7.0\ref\Exe03.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe03\bin\Debug\net7.0\Exe03.exe
+D:\Unoesc\Programacao I\2023\Exe\Exe03\bin\Debug\net7.0\Exe03.deps.json
+D:\Unoesc\Programacao I\2023\Exe\Exe03\bin\Debug\net7.0\Exe03.runtimeconfig.json
+D:\Unoesc\Programacao I\2023\Exe\Exe03\bin\Debug\net7.0\Exe03.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe03\bin\Debug\net7.0\Exe03.pdb
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.csproj.AssemblyReference.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.AssemblyInfoInputs.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.AssemblyInfo.cs
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.csproj.CoreCompileInputs.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\refint\Exe03.dll
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.pdb
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\Exe03.genruntimeconfig.cache
+D:\Unoesc\Programacao I\2023\Exe\Exe03\obj\Debug\net7.0\ref\Exe03.dll

@@ -39,6 +39,17 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
                 case 2:
                     List();
                 break;
+
+                case 3:
+                    Export();
+                break;
+
+                case 4:
+                    Import();
+                break;
+
+                default:
+                break;
             }
         }
 
@@ -56,7 +67,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
         {
             string retorno = "";
             retorno += $"Id: {client.Id} \n"; //\n quebra a linha
-            retorno += $"Nome: {client.FirstName} {client.FirstName} \n";
+            retorno += $"Nome: {client.FirstName} {client.LastName} \n";
             retorno += "-------------------------------------------- \n";
 
             return retorno;
@@ -83,6 +94,22 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
             else
                 Console.WriteLine("Falha ao inserir, verifique os dados!");
 
+        }
+
+        private void Export()
+        {
+            if(clientController.ExportToTextFile())
+                Console.WriteLine("Arquivo gerado com sucesso!");
+            else
+                Console.WriteLine("Opsssss.");
+        }
+
+        private void Import()
+        {
+            if(clientController.ImportFromTxtFile())
+                Console.WriteLine("Dados importados com sucesso!");
+            else
+                Console.WriteLine("Opsssss.");
         }
     }
 }
