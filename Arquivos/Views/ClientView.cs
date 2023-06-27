@@ -27,6 +27,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
             Console.WriteLine("2 - Listar Cliente");
             Console.WriteLine("3 - Exportar Cliente");
             Console.WriteLine("4 - Importar Cliente");
+            Console.WriteLine("5 - Pesquisar Clientes");
             Console.WriteLine("");
             int option = 0;
             option = Convert.ToInt32( Console.ReadLine() );
@@ -46,6 +47,10 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
                 case 4:
                     Import();
+                break;
+
+                case 5:
+                    SearchByName();// todo: Pesquisa pelo nome Search();
                 break;
 
                 default:
@@ -110,6 +115,18 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
                 Console.WriteLine("Dados importados com sucesso!");
             else
                 Console.WriteLine("Opsssss.");
+        }
+
+        private void SearchByName()
+        {
+            Console.WriteLine("Pesquisar Cliente Pelo Nome");
+            Console.WriteLine("Digite o Nome:");
+            string name = Console.ReadLine();
+
+            foreach(Client c in clientController.SearchByName(name))
+            {
+                Console.WriteLine(c.ToString());
+            }
         }
     }
 }

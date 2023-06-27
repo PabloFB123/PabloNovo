@@ -1,10 +1,12 @@
-﻿/*
+﻿using Arquivos.Views;
+using Arquivos.Utils;
+
+/*
 Programa para leitura de dados de pessoas
 e exportação de arquivos .txt
 */
 
-using Arquivos.Views; //chama a classe
-
+Bootstrapper.ChargeClients();
 
 int option = 0;
 
