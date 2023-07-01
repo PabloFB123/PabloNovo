@@ -9,32 +9,32 @@ using Arquivos.Models;
 
 namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de códigos
 {
-    public class ClientView // class especifica o que vai constituir o objeto - o objeto é a variável que fica armazenada na memória ram do computador
+    public class ClinicaView // class especifica o que vai constituir o objeto - o objeto é a variável que fica armazenada na memória ram do computador
     {
-        private ClientController clientController;
+        private ClinicaController clinicaController;
 
-        public ClientView()
+        public ClinicaView()
         {
-            clientController = new ClientController();
+            clinicaController = new ClinicaController();
             this.Init();
         }
         public void Init()
         {
             Console.WriteLine("******************");
-            Console.WriteLine("VOCÊ ESTÁ EM CLIENTES");
+            Console.WriteLine("VOCÊ ESTÁ EM CLÍNICAS");
             Console.WriteLine("******************");
             Console.WriteLine("");
-            Console.WriteLine("1 - Inserir Cliente");
-            Console.WriteLine("2 - Listar Cliente");
-            Console.WriteLine("3 - Exportar Cliente");
-            Console.WriteLine("4 - Importar Cliente");
-            Console.WriteLine("5 - Pesquisar Clientes");
+            Console.WriteLine("1 - Inserir Clínica");
+            Console.WriteLine("2 - Listar Clínica");
+            Console.WriteLine("3 - Exportar Clínica");
+            Console.WriteLine("4 - Importar Clínica");
+            Console.WriteLine("5 - Pesquisar Clínica");
             Console.WriteLine("");
 
             int option = 0;
 
             option = Convert.ToInt32(Console.ReadLine());
-            
+
             switch (option)
             {
                 case 1:
@@ -64,7 +64,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void List()
         {
-            List<Client> listgem = clientController.List();
+            List<Clinica> listgem = clinicaController.List();
 
             for (int i = 0; i < listgem.Count; i++)
             {
@@ -72,11 +72,11 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
             }
         }
 
-        private string Print(Client client) //tipo em letra maiuscul - locl em minuscula
+        private string Print(Clinica clinica) //tipo em letra maiuscul - locl em minuscula
         {
             string retorno = "";
-            retorno += $"Id: {client.Id} \n"; //\n quebra a linha
-            retorno += $"Nome: {client.FirstName} {client.LastName} \n";
+            retorno += $"Id: {clinica.IdC} \n"; //\n quebra a linha
+            retorno += $"Nome: {clinica.NameC} \n";
             retorno += "-------------------------------------------- \n";
 
             return retorno;
@@ -84,21 +84,27 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void Insert()
         {
-            Client client = new Client(); //classe Client especifica o tipo client = objeto/variável
-            client.Id = clientController.GetNextId();
-            Console.WriteLine("Informe o primeiro nome:");
-            client.FirstName = Console.ReadLine();
-            Console.WriteLine("Informe o sobrenome:");
-            client.LastName = Console.ReadLine();
-            Console.WriteLine("Informe o CPF:");
-            client.CPF = Console.ReadLine();
-            Console.WriteLine("Informe o Email:");
-            client.Email = Console.ReadLine();
+            Clinica clinica = new Clinica(); //classe Client especifica o tipo client = objeto/variável
+            clinica.IdC = clinicaController.GetNextId();
+            Console.WriteLine("Informe o Nome:");
+            clinica.NameC = Console.ReadLine();
+            Console.WriteLine("Informe Telefone:");
+            clinica.PhoneC = Console.ReadLine();
+            Console.WriteLine("Informe o País:");
+            clinica.CountryC = Console.ReadLine();
+            Console.WriteLine("Informe o Estado:");
+            clinica.StateC = Console.ReadLine();
+            Console.WriteLine("Informe a Cidade");
+            clinica.CityC = Console.ReadLine();
+            Console.WriteLine("Informe a Rua:");
+            clinica.RoadC = Console.ReadLine();
+            Console.WriteLine("Informe o Número");
+            clinica.NumberC = Console.ReadLine();
 
-            bool retorno = clientController.Insert(client);
+            bool retorno = clinicaController.Insert(clinica);
 
             if (retorno)
-                Console.WriteLine("Cliente inserido com sucesso!");
+                Console.WriteLine("Clínica inserida com sucesso!");
             else
                 Console.WriteLine("Falha ao inserir, verifique os dados!");
 
@@ -106,7 +112,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void Export()
         {
-            if (clientController.ExportToTextFile())
+            if (clinicaController.ExportToTextFile())
                 Console.WriteLine("Arquivo gerado com sucesso!");
             else
                 Console.WriteLine("Opsssss.");
@@ -114,7 +120,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void Import()
         {
-            if (clientController.ImportFromTxtFile())
+            if (clinicaController.ImportFromTxtFile())
                 Console.WriteLine("Dados importados com sucesso!");
             else
                 Console.WriteLine("Opsssss.");
@@ -122,14 +128,15 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void SearchByName()
         {
-            Console.WriteLine("Pesquisar Cliente Pelo Nome");
+            Console.WriteLine("Pesquisar Clínica Pelo Nome");
             Console.WriteLine("Digite o Nome:");
-            string name = Console.ReadLine();
+            string nameC = Console.ReadLine();
 
-            foreach (Client c in clientController.SearchByName(name))
+            foreach (Clinica c in clinicaController.SearchByName(nameC))
             {
                 Console.WriteLine(c.ToString());
             }
         }
+
     }
 }

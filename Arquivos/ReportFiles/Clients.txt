@@ -1,0 +1,5 @@
+1;000.000.000-00;Mauricio Roberto;Gonzatto;mauricio.gonzatto@unoesc.edu.br
+2;000.000.000-01;Eduardo;Blank;eduardo.blank@unoesc.edu.br
+3;000.000.000-02;Agnaldo;Timóteo;Agnaldo@unoesc.edu.br
+4;000.000.000.-01;Pablo;Brunetta;pablo@unoesc
+5;000.000.000-00;Ivania;Brunetta;ivania@unoesc

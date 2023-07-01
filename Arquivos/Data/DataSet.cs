@@ -18,6 +18,9 @@ namespace Arquivos.Data
         public static List<Veterinario> Veterinarios
             = new List<Veterinario> ();
 
+        public static List<Clinica> Clinicas
+            = new List<Clinica> ();
+
     }
 
 }

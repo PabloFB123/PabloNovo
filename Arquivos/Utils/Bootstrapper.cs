@@ -20,34 +20,32 @@ namespace Arquivos.Utils
                 CPF = "000.000.000-00",
                 Email = "mauricio.gonzatto@unoesc.edu.br"
             };
-            DataSet.Clients.Add(c1);
 
+            DataSet.Clients.Add(c1);
 
             DataSet.Clients.Add // esta forma economiza espaço de memória
             (
                 new Client
                 {
-                Id = 2,
-                FirstName = "Eduardo",
-                LastName = "Blank",
-                CPF = "000.000.000-01",
-                Email = "eduardo.blank@unoesc.edu.br"
+                    Id = 2,
+                    FirstName = "Eduardo",
+                    LastName = "Blank",
+                    CPF = "000.000.000-01",
+                    Email = "eduardo.blank@unoesc.edu.br"
                 }
             );
-
 
             DataSet.Clients.Add
             (
                 new Client
                 {
-                Id = 3,
-                FirstName = "Agnaldo",
-                LastName = "Timóteo",
-                CPF = "000.000.000-02",
-                Email = "Agnaldo@unoesc.edu.br"
+                    Id = 3,
+                    FirstName = "Agnaldo",
+                    LastName = "Timóteo",
+                    CPF = "000.000.000-02",
+                    Email = "Agnaldo@unoesc.edu.br"
                 }
             );
-
         }
     }
 }

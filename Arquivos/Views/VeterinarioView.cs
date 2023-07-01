@@ -6,6 +6,7 @@ using Arquivos.Controllers;
 using Arquivos.Data;
 using Arquivos.Models;
 
+
 namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de códigos
 {
     public class VeterinarioView // class especifica o que vai constituir o objeto - o objeto é a variável que fica armazenada na memória ram do computador
@@ -28,28 +29,31 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
             Console.WriteLine("3 - Exportar Médico Veterinário");
             Console.WriteLine("4 - Importar Médico Veterinário");
             Console.WriteLine("");
+
             int option = 0;
-            option = Convert.ToInt32( Console.ReadLine() );
+
+            option = Convert.ToInt32(Console.ReadLine());
+
             switch (option)
             {
-                case 1 :
+                case 1:
                     Insert();
-                break;
-                
+                    break;
+
                 case 2:
                     List();
-                break;
+                    break;
 
                 case 3:
                     Export();
-                break;
+                    break;
 
                 case 4:
                     Import();
-                break;
+                    break;
 
                 default:
-                break;
+                    break;
             }
         }
 
@@ -57,9 +61,9 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
         {
             List<Veterinario> listgem = veterinarioController.List();
 
-            for(int i = 0; i < listgem.Count; i++)
+            for (int i = 0; i < listgem.Count; i++)
             {
-                Console.WriteLine (Print(listgem[i]));
+                Console.WriteLine(Print(listgem[i]));
             }
         }
 
@@ -89,7 +93,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
             bool retorno = veterinarioController.Insert(veterinario);
 
-            if(retorno)
+            if (retorno)
                 Console.WriteLine("Médico Veterinário inserido com sucesso!");
             else
                 Console.WriteLine("Falha ao inserir, verifique os dados!");
@@ -98,7 +102,7 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void Export()
         {
-            if(veterinarioController.ExportToTextFile())
+            if (veterinarioController.ExportToTextFile())
                 Console.WriteLine("Arquivo gerado com sucesso!");
             else
                 Console.WriteLine("Opsssss.");
@@ -106,10 +110,24 @@ namespace Arquivos.Views //namespace é um lugar que eu posso guardar blocos de 
 
         private void Import()
         {
-            if(veterinarioController.ImportFromTxtFile())
+            if (veterinarioController.ImportFromTxtFile())
                 Console.WriteLine("Dados importados com sucesso!");
             else
                 Console.WriteLine("Opsssss.");
         }
+
+        private void SearchByName()
+        {
+            Console.WriteLine("Pesquisar Veterinário Pelo Nome");
+            Console.WriteLine("Digite o Nome:");
+            string nameV = Console.ReadLine();
+
+            foreach (Veterinario c in veterinarioController.SearchByName(nameV))
+            {
+                Console.WriteLine(c.ToString());
+            }
+        }
+
+
     }
 }

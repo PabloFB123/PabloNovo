@@ -6,6 +6,7 @@ using System.IO; //Input and Output
 using Arquivos.Data;
 using Arquivos.Models;
 
+
 namespace Arquivos.Controllers
 {
     public class VeterinarioController
@@ -43,8 +44,8 @@ namespace Arquivos.Controllers
                 fileContent += "\n";
             }
 
-
             try
+
             {
             StreamWriter sw = File.CreateText($"{directoryNameVet}\\{fileNameVet}");
 
@@ -53,20 +54,24 @@ namespace Arquivos.Controllers
             }
 
             catch(IOException ioEx)
+
             {
             Console.WriteLine("Erro ao manipular o arquivo.");
             Console.WriteLine(ioEx.Message);
+
             return false;
+
             }
 
-
             return true;
+
         }
 
         public bool ImportFromTxtFile()
         {
 
             try
+
             {
                 StreamReader sr = new StreamReader($"{directoryNameVet}\\{fileNameVet}");
         
@@ -89,14 +94,34 @@ namespace Arquivos.Controllers
                 }
 
                 return true;
+
             }
+
             catch(Exception ex)
+
             {
                 Console.WriteLine("Ooooops. Ocorreu um erro ao tentar importar os dados");
                 Console.WriteLine(ex.Message);
                 return false;
             }
+        }
 
+        public List<Veterinario> SearchByName(string nameV)
+        {
+            if (string.IsNullOrEmpty(nameV) || string.IsNullOrWhiteSpace(nameV))
+            return null;
+
+            List<Veterinario> veterinarios = new List<Veterinario>();
+            for(int i = 0; i < DataSet.Veterinarios.Count; i++)
+            {
+                var c = DataSet.Veterinarios[i];
+                if(c.FullNameV.ToLower().Contains(nameV.ToLower()))
+                {
+                    veterinarios.Add(c);
+                }
+            } 
+
+            return veterinarios;
 
         }
 
@@ -109,8 +134,5 @@ namespace Arquivos.Controllers
             else
             return 1;
         }
-
-    
-        
     }
 }
